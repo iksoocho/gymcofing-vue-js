@@ -1,7 +1,11 @@
 <template>
+  <!--
+    '/' -> HomeView.vue가 렌더링 되야하고,
+    '/about' -> AboutView가 렌더링 되어야 한다.
+  -->
   <main>
     <div class="container py-4">
-      <h2>Hello Vue3</h2>
+      <RouterView></RouterView>
     </div>
   </main>
 </template>
